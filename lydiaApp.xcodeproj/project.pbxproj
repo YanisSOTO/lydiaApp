@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097251A3238E7CA400C0E7A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097251A2238E7CA400C0E7A2 /* AppDelegate.swift */; };
+		097251A5238E7CA400C0E7A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097251A4238E7CA400C0E7A2 /* SceneDelegate.swift */; };
+		097251A7238E7CA400C0E7A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097251A6238E7CA400C0E7A2 /* ViewController.swift */; };
+		097251AA238E7CA400C0E7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097251A8238E7CA400C0E7A2 /* Main.storyboard */; };
+		097251AC238E7CA600C0E7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 097251AB238E7CA600C0E7A2 /* Assets.xcassets */; };
+		097251AF238E7CA600C0E7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 097251AD238E7CA600C0E7A2 /* LaunchScreen.storyboard */; };
+		097251BA238E7CA600C0E7A2 /* lydiaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097251B9238E7CA600C0E7A2 /* lydiaAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		097251B6238E7CA600C0E7A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09725197238E7CA400C0E7A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0972519E238E7CA400C0E7A2;
+			remoteInfo = lydiaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0972519F238E7CA400C0E7A2 /* lydiaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lydiaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		097251A2238E7CA400C0E7A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		097251A4238E7CA400C0E7A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		097251A6238E7CA400C0E7A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		097251A9238E7CA400C0E7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		097251AB238E7CA600C0E7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		097251AE238E7CA600C0E7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		097251B0238E7CA600C0E7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		097251B5238E7CA600C0E7A2 /* lydiaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lydiaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		097251B9238E7CA600C0E7A2 /* lydiaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lydiaAppTests.swift; sourceTree = "<group>"; };
+		097251BB238E7CA600C0E7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0972519C238E7CA400C0E7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097251B2238E7CA600C0E7A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09725196238E7CA400C0E7A2 = {
+			isa = PBXGroup;
+			children = (
+				097251A1238E7CA400C0E7A2 /* lydiaApp */,
+				097251B8238E7CA600C0E7A2 /* lydiaAppTests */,
+				097251A0238E7CA400C0E7A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		097251A0238E7CA400C0E7A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0972519F238E7CA400C0E7A2 /* lydiaApp.app */,
+				097251B5238E7CA600C0E7A2 /* lydiaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		097251A1238E7CA400C0E7A2 /* lydiaApp */ = {
+			isa = PBXGroup;
+			children = (
+				097251A2238E7CA400C0E7A2 /* AppDelegate.swift */,
+				097251A4238E7CA400C0E7A2 /* SceneDelegate.swift */,
+				097251A6238E7CA400C0E7A2 /* ViewController.swift */,
+				097251A8238E7CA400C0E7A2 /* Main.storyboard */,
+				097251AB238E7CA600C0E7A2 /* Assets.xcassets */,
+				097251AD238E7CA600C0E7A2 /* LaunchScreen.storyboard */,
+				097251B0238E7CA600C0E7A2 /* Info.plist */,
+			);
+			path = lydiaApp;
+			sourceTree = "<group>";
+		};
+		097251B8238E7CA600C0E7A2 /* lydiaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				097251B9238E7CA600C0E7A2 /* lydiaAppTests.swift */,
+				097251BB238E7CA600C0E7A2 /* Info.plist */,
+			);
+			path = lydiaAppTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0972519E238E7CA400C0E7A2 /* lydiaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097251BE238E7CA600C0E7A2 /* Build configuration list for PBXNativeTarget "lydiaApp" */;
+			buildPhases = (
+				0972519B238E7CA400C0E7A2 /* Sources */,
+				0972519C238E7CA400C0E7A2 /* Frameworks */,
+				0972519D238E7CA400C0E7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lydiaApp;
+			productName = lydiaApp;
+			productReference = 0972519F238E7CA400C0E7A2 /* lydiaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		097251B4238E7CA600C0E7A2 /* lydiaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 097251C1238E7CA600C0E7A2 /* Build configuration list for PBXNativeTarget "lydiaAppTests" */;
+			buildPhases = (
+				097251B1238E7CA600C0E7A2 /* Sources */,
+				097251B2238E7CA600C0E7A2 /* Frameworks */,
+				097251B3238E7CA600C0E7A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				097251B7238E7CA600C0E7A2 /* PBXTargetDependency */,
+			);
+			name = lydiaAppTests;
+			productName = lydiaAppTests;
+			productReference = 097251B5238E7CA600C0E7A2 /* lydiaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09725197238E7CA400C0E7A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Yanis Soto";
+				TargetAttributes = {
+					0972519E238E7CA400C0E7A2 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					097251B4238E7CA600C0E7A2 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 0972519E238E7CA400C0E7A2;
+					};
+				};
+			};
+			buildConfigurationList = 0972519A238E7CA400C0E7A2 /* Build configuration list for PBXProject "lydiaApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09725196238E7CA400C0E7A2;
+			productRefGroup = 097251A0238E7CA400C0E7A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0972519E238E7CA400C0E7A2 /* lydiaApp */,
+				097251B4238E7CA600C0E7A2 /* lydiaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0972519D238E7CA400C0E7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097251AF238E7CA600C0E7A2 /* LaunchScreen.storyboard in Resources */,
+				097251AC238E7CA600C0E7A2 /* Assets.xcassets in Resources */,
+				097251AA238E7CA400C0E7A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097251B3238E7CA600C0E7A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0972519B238E7CA400C0E7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097251A7238E7CA400C0E7A2 /* ViewController.swift in Sources */,
+				097251A3238E7CA400C0E7A2 /* AppDelegate.swift in Sources */,
+				097251A5238E7CA400C0E7A2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		097251B1238E7CA600C0E7A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097251BA238E7CA600C0E7A2 /* lydiaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		097251B7238E7CA600C0E7A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0972519E238E7CA400C0E7A2 /* lydiaApp */;
+			targetProxy = 097251B6238E7CA600C0E7A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		097251A8238E7CA400C0E7A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097251A9238E7CA400C0E7A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		097251AD238E7CA600C0E7A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				097251AE238E7CA600C0E7A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		097251BC238E7CA600C0E7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		097251BD238E7CA600C0E7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		097251BF238E7CA600C0E7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lydiaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.lydia.lydiaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		097251C0238E7CA600C0E7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lydiaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.lydia.lydiaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		097251C2238E7CA600C0E7A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lydiaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.lydia.lydiaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lydiaApp.app/lydiaApp";
+			};
+			name = Debug;
+		};
+		097251C3238E7CA600C0E7A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = lydiaAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.lydia.lydiaAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lydiaApp.app/lydiaApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0972519A238E7CA400C0E7A2 /* Build configuration list for PBXProject "lydiaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097251BC238E7CA600C0E7A2 /* Debug */,
+				097251BD238E7CA600C0E7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097251BE238E7CA600C0E7A2 /* Build configuration list for PBXNativeTarget "lydiaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097251BF238E7CA600C0E7A2 /* Debug */,
+				097251C0238E7CA600C0E7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		097251C1238E7CA600C0E7A2 /* Build configuration list for PBXNativeTarget "lydiaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				097251C2238E7CA600C0E7A2 /* Debug */,
+				097251C3238E7CA600C0E7A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09725197238E7CA400C0E7A2 /* Project object */;
+}
