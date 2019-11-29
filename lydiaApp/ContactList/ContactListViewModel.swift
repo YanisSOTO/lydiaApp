@@ -75,7 +75,8 @@ final class ContactListViewModel: ContactListViewModelProtocol {
             let realm = try Realm()
             RContact.fetchContact(realm: realm).asObservable().ignoreNil().subscribe(onNext: { [weak self] contactList in
                 guard let self = self else { return }
-                self.contactListRelay.accept(contactList)
+                let sortedC = contactList.sorted(by: { $0.name.first < $1.name.first })
+                self.contactListRelay.accept(sortedC)
             }).disposed(by: self.disposeBag)
         } catch {
             print("ERROR : \(type(of: self)): \(#function)")

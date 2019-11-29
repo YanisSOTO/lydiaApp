@@ -25,7 +25,7 @@ final class ContactListView: UIView {
     }
     
     private func createTableView() -> UITableView {
-        let tableView = UITableView(frame: .zero,style: .grouped)
+        let tableView = UITableView(frame: .zero, style: .plain)
         tableView.register(ContactCell.self,
                     forCellReuseIdentifier: "ContactCellIdentifier")
         tableView.backgroundColor = .clear

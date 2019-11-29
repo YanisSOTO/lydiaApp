@@ -13,6 +13,6 @@ protocol ApiFetcherProtocol {
 }
 
 public struct ApiFetcher: ApiFetcherProtocol {
-  //Add protocol func in there service. Example getTripList in KTripService
+  //Add protocol func in there service. Example getContactList in ContactService
 }
 
